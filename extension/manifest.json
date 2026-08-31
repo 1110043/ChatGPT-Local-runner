@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT 本機執行",
+  "version": "1.0.0",
+  "description": "在 ChatGPT 程式碼區塊旁使用 Windows 本機 Runner 執行支援的程式碼。",
+  "permissions": ["storage"],
+  "host_permissions": ["http://127.0.0.1:9029/*"],
+  "action": {
+    "default_title": "ChatGPT 本機執行設定",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://chatgpt.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

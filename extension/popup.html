@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ChatGPT 本機執行設定</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main>
+    <h1>本機 Runner 設定</h1>
+    <p id="status" role="status">檢查中…</p>
+    <form id="settings-form">
+      <label for="timeout">Timeout（秒）</label>
+      <input id="timeout" name="timeout" type="number" min="1" max="600" step="1" required>
+      <p class="hint">預設 60 秒，範圍 1–600 秒。</p>
+      <label for="cwd">工作目錄</label>
+      <input id="cwd" name="cwd" type="text" spellcheck="false" placeholder="留空使用 %USERPROFILE%">
+      <p class="hint">可填完整 Windows 路徑；留空使用目前使用者目錄。</p>
+      <button type="submit">儲存設定</button>
+    </form>
+    <p id="saved" class="saved" aria-live="polite"></p>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>

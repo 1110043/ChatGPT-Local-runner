@@ -1,0 +1,13 @@
+:root { color-scheme: light dark; }
+body { font-family: system-ui, sans-serif; margin: 0; min-width: 270px; }
+main { padding: 16px; }
+h1 { font-size: 16px; margin: 0 0 10px; }
+#status { border-radius: 6px; font-size: 12px; margin: 0 0 14px; padding: 7px; }
+#status.ok { background: #dcfce7; color: #166534; }
+#status.offline { background: #fee2e2; color: #991b1b; }
+label { display: block; font-size: 12px; font-weight: 600; margin: 10px 0 5px; }
+input { box-sizing: border-box; font: inherit; padding: 7px; width: 100%; }
+.hint { font-size: 11px; margin: 4px 0 0; opacity: .7; }
+form button { cursor: pointer; font: inherit; margin-top: 16px; padding: 7px 10px; width: 100%; }
+.saved { font-size: 12px; min-height: 15px; }
+:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
