@@ -1,6 +1,6 @@
 # ChatGPT 本機執行工具
 
-[繁體中文](README.md) | [English](README.en.md)
+[繁體中文](README.md) | [简体中文](README.zh-CN.md) | [English](README.en.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
 
 這是一個 Windows 本機工具，會在 `https://chatgpt.com/` 的支援程式碼區塊旁加入 `▼` 按鈕。按下後，程式碼會經由 `127.0.0.1:9029` 傳給本機 Runner 執行，並在程式碼下方顯示 stdout/stderr。
 
