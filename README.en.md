@@ -1,6 +1,6 @@
 # ChatGPT Local Runner
 
-[繁體中文](README.md) | [English](README.en.md)
+[繁體中文](README.md) | [简体中文](README.zh-CN.md) | [English](README.en.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
 
 This is a Windows local tool that adds a `▼` button next to supported code blocks on `https://chatgpt.com/`. When clicked, the code is sent to the local Runner through `127.0.0.1:9029` for execution, and stdout/stderr are displayed below the code block.
 
